@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.RoleTokenDto=void 0;const RoleTokenDto=e=>e.map(e=>({name:e.name}));exports.RoleTokenDto=RoleTokenDto;

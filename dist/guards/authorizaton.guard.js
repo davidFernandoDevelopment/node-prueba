@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.AuthorizationGuard=void 0;class AuthorizationGuard{static conActivate(...t){return(o,r,e)=>{const{roles:a}=r.locals.payload;let i=!1;a.forEach(o=>{if(t.indexOf(o.name)>-1)return i=!0,void e()}),i||r.status(409).send("User not authorized")}}}exports.AuthorizationGuard=AuthorizationGuard;

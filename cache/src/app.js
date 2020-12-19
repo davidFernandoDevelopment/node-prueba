@@ -1,0 +1,21 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const error_helper_1 = require("./helper/error.helper");
+const medic_routes_1 = require("./medic/infraestructure/medic.routes");
+const user_routes_1 = require("./user/infraestructure/user.routes");
+const role_routes_1 = require("./role/infraestructure/role.routes");
+const auth_routes_1 = require("./auth/infraestructure/auth.routes");
+const app = express_1.default();
+app.use(express_1.default.json());
+app.use(express_1.default.urlencoded({ extended: true }));
+app.use('/medics', medic_routes_1.router);
+app.use('/users', user_routes_1.router);
+app.use('/roles', role_routes_1.router);
+app.use('/auth', auth_routes_1.router);
+app.use(error_helper_1.Errors.pathNotFound);
+app.use(error_helper_1.Errors.genericError);
+exports.default = app;

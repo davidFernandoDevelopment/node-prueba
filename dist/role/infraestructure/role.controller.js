@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.RoleController=void 0;const generic_controller_1=require("../../generics/generic.controller");class RoleController extends generic_controller_1.GenericController{constructor(e){super(e),this.usecase=e}}exports.RoleController=RoleController;

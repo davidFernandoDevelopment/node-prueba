@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.RoleUseCase=void 0;const generic_usecase_1=require("../../generics/generic.usecase");class RoleUseCase extends generic_usecase_1.GenericUseCase{constructor(e){super(e),this.repository=e}}exports.RoleUseCase=RoleUseCase;

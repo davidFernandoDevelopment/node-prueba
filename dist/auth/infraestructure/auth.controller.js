@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.AuthController=void 0;class AuthController{constructor(e){this.usecase=e}async loginController(e){return await this.usecase.loginUseCase(e)}}exports.AuthController=AuthController;

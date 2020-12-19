@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "resolveJsonModule": true,
+    "esModuleInterop": true, // HAY LIBRERIAS QUE USAN DIFERENTE A COMMONJS
+    "target": "ES2020",
+    "noImplicitAny": true,
+    "moduleResolution": "Node", // FORMA COMO HACEMOS RUTAS RELATIVAS
+    "sourceMap": false,
+    "outDir": "./cache",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts", "test/**/*.ts", "test/sum.test.js"]
+}
+
+// LOS DECORADORES SE EJECUTAN ANTES DEL RUNTIME
+// INFORMACION QUE ES NO EL CONTENIDO DE LA CARTA ES LA METADATA

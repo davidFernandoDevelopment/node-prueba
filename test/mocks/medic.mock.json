@@ -1,0 +1,24 @@
+[
+	{
+		"name": "felipe",
+		"surname": "pedos",
+		"lastname": "perez",
+		"cmp": "123",
+		"dni": "1234",
+		"email": "felipedos@gmail.com",
+		"photo": "felipedos.jpg",
+		"isActive": true,
+		"locations": ["Lima", "Trujillo"]
+	},
+	{
+		"name": "juan",
+		"surname": "pedos",
+		"lastname": "perez",
+		"cmp": "123",
+		"dni": "1234",
+		"email": "felipedos@gmail.com",
+		"photo": "felipedos.jpg",
+		"isActive": true,
+		"locations": ["Lima", "Trujillo"]
+	}
+]

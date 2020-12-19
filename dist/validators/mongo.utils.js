@@ -1,0 +1,1 @@
+"use strict";function validarId(s,a,t){const d=s.params.id;null!==d.match(/^[a-fA-F0-9]{24}$/)?t():a.status(400).json({status:400,result:`El id [${d}] suministrado en el URL no es válido`})}Object.defineProperty(exports,"__esModule",{value:!0}),exports.validarId=void 0,exports.validarId=validarId;

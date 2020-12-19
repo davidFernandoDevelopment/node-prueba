@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.RoleOperations=void 0;const generic_operations_1=require("../../generics/generic.operations");class RoleOperations extends generic_operations_1.GenericOperations{constructor(e){super(e),this.model=e}}exports.RoleOperations=RoleOperations;

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.MedicController=void 0;const generic_controller_1=require("../../generics/generic.controller");class MedicController extends generic_controller_1.GenericController{constructor(e){super(e),this.usecase=e}getLocationController(){this.usecase.getLocationUseCase()}}exports.MedicController=MedicController;

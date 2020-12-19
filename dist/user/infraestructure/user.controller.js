@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.UserController=void 0;const generic_controller_1=require("../../generics/generic.controller");class UserController extends generic_controller_1.GenericController{constructor(e){super(e),this.usecase=e}}exports.UserController=UserController;
